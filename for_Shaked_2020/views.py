@@ -35,3 +35,13 @@ def about():
         year=datetime.now().year,
         message='Your application description page.'
     )
+@app.route('/photo')
+def photo():
+    """Renders the photo page."""
+    return render_template(
+        'photo.html',
+        title='Photo Album',
+        year=datetime.now().year,
+        message='Your Photo Album.'
+    )
+
