@@ -17,6 +17,7 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>for_Shaked_2020</Name>
     <RootNamespace>for_Shaked_2020</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|Shaked_2020</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -67,6 +68,9 @@
     <Content Include="for_Shaked_2020\templates\contact.html" />
     <Content Include="for_Shaked_2020\templates\index.html" />
     <Content Include="for_Shaked_2020\templates\layout.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|Shaked_2020" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
