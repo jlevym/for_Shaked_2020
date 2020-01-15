@@ -66,7 +66,6 @@
     <Content Include="for_Shaked_2020\static\scripts\respond.min.js" />
     <Content Include="for_Shaked_2020\static\scripts\_references.js" />
     <Content Include="for_Shaked_2020\templates\about.html" />
-    <Content Include="for_Shaked_2020\templates\photoalbum.html" />
     <Content Include="for_Shaked_2020\templates\index.html" />
     <Content Include="for_Shaked_2020\templates\layout.html" />
   </ItemGroup>
